@@ -1,0 +1,20 @@
+{
+  "name": "hashlib2",
+  "author": "Illarionov Oleg",
+  "description": "Clone of the popular hashlib libr for node. Noting more than an updated npm",
+  "version": "1.0.3",
+  "contributors": [ 
+    { "name": "Fedor Indutny", "email": "fedor.indutny@gmail.com" },
+    { "name": "Seth Fitzsimmons", "email": "seth@mojodna.net" },
+    { "name": "Wade Simmons", "email": "wade@wades.im" },
+    { "name": "Karl Seguin", "email": "karl@openmymind.net" }
+  ],
+  "homepage": "https://github.com/karlseguin/hashlib",
+  "repository" : { 
+    "type": "git",
+    "url": "http://github.com/karlseguin/hashlib.git" 
+  },
+  "main": "build/Release/hashlib",
+  "directories": { "lib": "./build/Release" },
+  "engines": { "node": ">= 0.5.5" }
+}
